@@ -43,7 +43,7 @@ Aşağıdaki işlem adımları uygulanmıştır:
 
 Tesla üretim ve teslimat arasındaki ilişki aşağıdaki grafikte gösterilmektedir:
 
-![Scatter Plot](analysis_result_1.png)
+![Scatter Plot](plot.png)
 
 ### **Grafik Yorumu**
 - Noktalar neredeyse düz bir çizgi üzerinde  

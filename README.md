@@ -58,21 +58,23 @@ Tesla üretim ve teslimat arasındaki ilişki aşağıdaki grafikte gösterilmek
 
 ```python
 df = pd.read_csv("tesla_deliveries_dataset_2015_2025.csv")
+```
 
 ## 🧠 Veri İnceleme (EDA)
 
 Veri yüklendikten sonra temel inceleme adımları uygulanmıştır:
 
+
 ```python
 df.head()
 df.info()
 df.describe()
-
+```
 Bu işlemler ile:
-Veri türleri görüldü
-Eksik veri olmadığı doğrulandı
-Sayısal kolonların dağılımı incelendi
-Modelde kullanacağımız kolonların uygunluğu kontrol edildi
+1. Veri türleri görüldü
+2. Eksik veri olmadığı doğrulandı
+3.Sayısal kolonların dağılımı incelendi
+4.Modelde kullanacağımız kolonların uygunluğu kontrol edildi
 
 ## Eğitim / Test Ayrımı
 

@@ -71,10 +71,10 @@ df.info()
 df.describe()
 ```
 Bu işlemler ile:
-1. Veri türleri görüldü
-2. Eksik veri olmadığı doğrulandı
-3.Sayısal kolonların dağılımı incelendi
-4.Modelde kullanacağımız kolonların uygunluğu kontrol edildi
+-Veri türleri görüldü
+-Eksik veri olmadığı doğrulandı
+-Sayısal kolonların dağılımı incelendi
+-Modelde kullanacağımız kolonların uygunluğu kontrol edildi
 
 ## Eğitim / Test Ayrımı
 

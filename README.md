@@ -119,11 +119,11 @@ intercept = model.intercept_
 
 ### Aşağıdaki değerlendirme sonuçları elde edilmiştir:
 
-Metrik	Değer
-Eğim (β₁)	0.9173
-Sabit (β₀)	144.56
-R² Skoru	0.9884
-RMSE	415.1
+- Metrik	Değer
+Eğim (β₁)	= 0.9173
+- Sabit (β₀) =	144.56
+- R² Skoru =	0.9884
+- RMSE = 415.1
 
 ## ❌ Hata Hesaplamaları
 

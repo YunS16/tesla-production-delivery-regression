@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="tesla.jpg" width="650">
+  <img src="tesla.jpg" width="650" height="400">
 </p>
 
 # 🏎️ Tesla Üretim & Teslimat Analizi (2015–2025)

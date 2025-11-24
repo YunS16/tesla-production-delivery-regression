@@ -30,7 +30,6 @@ Amaç, üretim miktarına bakarak Tesla’nın tahmini teslimat sayısını mate
 | Toplam Satır           | **2640**                                                     |
 | Toplam Sütun           | **12**                                                       |
 | Eksik Veri             | **0**                                                        |
-| Dosya Boyutu           | ~**(kendin ekleyebilirsin: Örn. 120 KB)**                     |
 | Kullanılan Değişkenler | `Production_Units` (X), `Estimated_Deliveries` (Y)           |
 | Hedef Değişken (Target)| **Estimated_Deliveries**                                     |
 | Bağımsız Değişken (Feature)| **Production_Units**                                     |

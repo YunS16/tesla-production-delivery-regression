@@ -5,7 +5,7 @@
 # 🏎️ Tesla Üretim & Teslimat Analizi (2015–2025)
 
 Bu proje, Tesla’nın 2015–2025 yılları arasındaki Quarterly Production ve Estimated Deliveries verilerini kullanarak
-“Üretim → Teslimat” ilişkisini analiz eden basit ama öğretici bir lineer regresyon çalışmasıdır.
+“Üretim → Teslimat” ilişkisini analiz eden bir lineer regresyon çalışmasıdır.
 
 
 ## 📦 Proje Yapısı
@@ -29,7 +29,6 @@ Bu proje, Tesla’nın 2015–2025 yılları arasındaki Quarterly Production ve
 | Kullanılan Değişkenler | `Production_Units` (X), `Estimated_Deliveries` (Y)           |
 | Hedef Değişken (Target)| **Estimated_Deliveries**                                     |
 | Bağımsız Değişken (Feature)| **Production_Units**                                     |
-| Filtre / Temizlik      | Veri seti temiz; ek doldurma veya silme işlemi yapılmadı.   |
 
 ---
 
@@ -63,7 +62,6 @@ Basit EDA (İlk 5 satır / info / describe)
 
 Scatter plot ile doğrusal ilişkinin görselleştirilmesi
 
-Veri seti zaten temiz olduğundan ek bir doldurma veya filtreleme işlemine ihtiyaç duyulmamıştır.
 
 
 ## Korelasyon Matrisi Örneği

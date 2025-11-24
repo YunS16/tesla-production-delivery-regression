@@ -80,7 +80,14 @@ Veri seti zaten temiz olduğundan ek bir doldurma veya filtreleme işlemine ihti
 
 ![Korelasyon Matrisi](korelasyon_matris.png)
 ```
-corr = df.corr()
+# Korelasyon matrisi analizinde kullanılacak değişkenlerin seçilmesi
+corr = df[['Estimated_Deliveries',
+           'Production_Units',
+           'Avg_Price_USD',
+           'Range_km',
+           'Charging_Stations']].corr()
+
+# Korelasyon matrisinin görselleştirmek için
 plt.imshow(corr, cmap="coolwarm")
 plt.colorbar()
 plt.title("Correlation Heatmap")

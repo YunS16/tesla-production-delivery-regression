@@ -64,7 +64,7 @@ Scatter plot ile doğrusal ilişkinin görselleştirilmesi
 
 
 
-## Korelasyon Matrisi Örneği
+## Korelasyon Matrisi
 
 
 ![Korelasyon Matrisi](img/korelasyon_matris.png)

@@ -64,7 +64,7 @@ Scatter plot ile doğrusal ilişkinin görselleştirilmesi
 
 
 
-## Korelasyon Matrisi
+## 📋 Korelasyon Matrisi
 
 
 ![Korelasyon Matrisi](img/korelasyon_matris.png)
@@ -90,7 +90,7 @@ Bu nedenle lineer regresyon modeli için uygun bir veri setidir.
 ---
 
 
-## Lineer Regresyon Modeli
+## 📈 Lineer Regresyon Modeli
 ![Lineer Regresyon](img/Lineer_regresyon.png)
 ```
 plt.scatter(X_test, y_test)
@@ -106,7 +106,7 @@ Model tarafından oluşturulan çizgi, tahmin edilen teslimat değerlerini temsi
 Gerçek test verileriyle yakın hizalanması modelin yüksek doğruluğunu gösterir.
 
 
-## Sonuç
+## 💯Sonuç
 
 Bu proje kapsamında, Tesla’nın 2015–2025 yılları arasında kaydettiği üretim ve teslimat verileri incelenmiş ve iki değişken arasındaki ilişki lineer regresyon modeli kullanılarak detaylı şekilde analiz edilmiştir. Verilerin hem sayısal yapısı hem de doğrusal dağılımı, doğrusal bir modelin bu probleme uygun olduğunu güçlü biçimde göstermiştir.   
 Sonuç olarak bu çalışma, Tesla’nın üretim hacmindeki artışın teslimat sayıları üzerinde doğrusal ve güçlü bir etkisi olduğunu açıkça ortaya koymaktadır. Kullanılan model, hem öğretici hem de pratik bir makine öğrenimi uygulaması olarak proje amacını başarıyla karşılamış ve anlamlı tahminler üretmiştir.

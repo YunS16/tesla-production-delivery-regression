@@ -52,16 +52,13 @@ Aşağıdaki işlem adımları uygulanmıştır:
 
 ---
 
-##  Korelasyon Grafiği (X → Y İlişkisi)
+##  Korelasyon Matrisi
 
 Tesla üretim ve teslimat arasındaki ilişki aşağıdaki grafikte gösterilmektedir:
 
-![Scatter Plot](plot.png)
+korelasyon_matris.png
 
-### **Grafik Yorumu**
-- Noktalar neredeyse düz bir çizgi üzerinde  
-- Üretim arttıkça teslimat da artıyor  
-- Bu, **çok güçlü bir doğrusal ilişki** olduğuna işaret ediyor  
+
 
 ---
 

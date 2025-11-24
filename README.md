@@ -97,6 +97,8 @@ Veri seti zaten temiz olduğundan ek bir doldurma veya filtreleme işlemine ihti
 
 ## Sonuç
 
-Bu çalışma, Tesla’nın üretim ve teslimat verileri arasında çok güçlü bir doğrusal bağlantı olduğunu göstermektedir.
-Lineer regresyon modeli, gelecekteki teslimat sayılarını tahmin etmek için başarılı bir performans sergilemiştir.
+Bu proje kapsamında, Tesla’nın 2015–2025 yılları arasında kaydettiği üretim ve teslimat verileri incelenmiş ve iki değişken arasındaki ilişki lineer regresyon modeli kullanılarak detaylı şekilde analiz edilmiştir. Verilerin hem sayısal yapısı hem de doğrusal dağılımı, doğrusal bir modelin bu probleme uygun olduğunu güçlü biçimde göstermiştir.   
+Sonuç olarak bu çalışma, Tesla’nın üretim hacmindeki artışın teslimat sayıları üzerinde doğrusal ve güçlü bir etkisi olduğunu açıkça ortaya koymaktadır. Kullanılan model, hem öğretici hem de pratik bir makine öğrenimi uygulaması olarak proje amacını başarıyla karşılamış ve anlamlı tahminler üretmiştir.
+
+Bu proje, gerçek dünya verilerinin analizinde temel ML yöntemlerinin ne kadar etkili olabileceğini gösteren yalın ama etkili bir örnek niteliği taşımaktadır.
 

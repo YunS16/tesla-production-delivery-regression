@@ -21,23 +21,20 @@ Amaç, üretim miktarına bakarak Tesla’nın tahmini teslimat sayısını mate
 
 
 ---
+## 📦 Veri Seti Özeti
 
-
-##  Veri Seti Özeti
-
-| Bilgi | Değer |
-|-------|-------|
-| Toplam Satır | **2640** |
-| Toplam Sütun | **12** |
-| Eksik Veri | **0** |
-| Kullanılan Değişkenler | Production_Units (X), Estimated_Deliveries (Y) |
-
-### Kullanılan temel kolonlar:
-
-| Sütun | Açıklama |
-|-------|----------|
-| Production_Units | Tesla üretim adedi (X) |
-| Estimated_Deliveries | Tahmini teslimatlar (Y) |
+| Bilgi                  | Değer                                                        |
+|------------------------|--------------------------------------------------------------|
+| Veri Tipi              | **CSV (Comma-Separated Values)**                             |
+| Zaman Aralığı          | **2015 – 2025**                                              |
+| Toplam Satır           | **2640**                                                     |
+| Toplam Sütun           | **12**                                                       |
+| Eksik Veri             | **0**                                                        |
+| Dosya Boyutu           | ~**(kendin ekleyebilirsin: Örn. 120 KB)**                     |
+| Kullanılan Değişkenler | `Production_Units` (X), `Estimated_Deliveries` (Y)           |
+| Hedef Değişken (Target)| **Estimated_Deliveries**                                     |
+| Bağımsız Değişken (Feature)| **Production_Units**                                     |
+| Filtre / Temizlik      | Veri seti temiz; ek doldurma veya silme işlemi yapılmadı.   |
 
 ---
 

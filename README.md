@@ -123,3 +123,7 @@ Sonuç olarak bu çalışma, Tesla’nın üretim hacmindeki artışın teslimat
 
 Bu proje, gerçek dünya verilerinin analizinde temel ML yöntemlerinin ne kadar etkili olabileceğini gösteren yalın ama etkili bir örnek niteliği taşımaktadır.
 
+<p align="center">
+  <img src="img/tesla_car.png" width="500" height="500">
+</p>
+

@@ -52,11 +52,11 @@ Aşağıdaki işlem adımları uygulanmıştır:
 
 ---
 
-##  Korelasyon Matrisi
 
-Tesla üretim ve teslimat arasındaki ilişki aşağıdaki grafikte gösterilmektedir:
+## Korelasyon Matrisi Örneği
 
-korelasyon_matris.png
+
+![Korelasyon Matrisi](korelasyon_matris.png)
 
 
 

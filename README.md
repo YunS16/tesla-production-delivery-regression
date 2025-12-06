@@ -38,6 +38,18 @@ Tesla’nın üretim–teslimat dinamiklerini istatistiksel olarak ortaya koymay
 
 ---
 
+
+### b) “Kullanılan Kütüphaneler”
+
+
+## 📦 Kullanılan Kütüphaneler
+
+- `pandas` – Veri okuma ve veri çerçevesi işlemleri
+- `numpy` – Sayısal hesaplamalar
+- `matplotlib` / `seaborn` – Veri görselleştirme
+- `scikit-learn` – Regresyon modelleri ve metrikler
+
+
 ## 🎯 Projenin Amacı
 
 Bu projede hedef değişken (y) şudur:
@@ -110,6 +122,15 @@ plt.show()
 Buradaki kodlar sayesinde lineer regresyon modelimizi oluşturduk  
 Model tarafından oluşturulan çizgi, tahmin edilen teslimat değerlerini temsil eder.
 Gerçek test verileriyle yakın hizalanması modelin yüksek doğruluğunu gösterir.
+
+### 🏆 En İyi Model Hangisi ve Neden?
+
+Sonuçlara göre **[X model]**, test verisi üzerinde en yüksek R² skoruna ve en düşük hata değerlerine (MAE / RMSE) sahip modeldir.  
+Ayrıca artık (residual) dağılımlarına bakıldığında, hataların daha rastgele ve küçük genlikte olduğu görülmektedir.  
+
+Tesla verisi üretim ve teslimat arasında güçlü ve yaklaşık doğrusal bir ilişki gösterdiği için, **[eğer böyleyse: lineer regresyon modeli hem basit hem de yorumlanabilir olduğundan tercih edilebilir]**.  
+[eğer ağaç tabanlı model daha iyiyse: Random Forest, doğrusal olmayan küçük sapmaları da yakalayabildiği için biraz daha iyi performans vermiştir, ancak yorumlanabilirlik lineer regresyona göre daha düşüktür.]
+
 
 
 ## 💯Sonuç

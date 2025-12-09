@@ -123,13 +123,20 @@ Buradaki kodlar sayesinde lineer regresyon modelimizi oluşturduk
 Model tarafından oluşturulan çizgi, tahmin edilen teslimat değerlerini temsil eder.
 Gerçek test verileriyle yakın hizalanması modelin yüksek doğruluğunu gösterir.
 
-### 🏆 En İyi Model Hangisi ve Neden?
+## 📌 Model Seçimi
 
-Sonuçlara göre **[X model]**, test verisi üzerinde en yüksek R² skoruna ve en düşük hata değerlerine (MAE / RMSE) sahip modeldir.  
-Ayrıca artık (residual) dağılımlarına bakıldığında, hataların daha rastgele ve küçük genlikte olduğu görülmektedir.  
+Tesla’nın 2015–2025 yılları arasındaki üretim (Production Units) ve tahmini teslimat (Estimated Deliveries) verileri incelendiğinde iki değişken arasında **yüksek pozitif doğrusal ilişki** bulundu.
 
-Tesla verisi üretim ve teslimat arasında güçlü ve yaklaşık doğrusal bir ilişki gösterdiği için, **[eğer böyleyse: lineer regresyon modeli hem basit hem de yorumlanabilir olduğundan tercih edilebilir]**.  
-[eğer ağaç tabanlı model daha iyiyse: Random Forest, doğrusal olmayan küçük sapmaları da yakalayabildiği için biraz daha iyi performans vermiştir, ancak yorumlanabilirlik lineer regresyona göre daha düşüktür.]
+Bu nedenle ilk olarak:
+
+- **Lineer Regresyon** modeli temel bir yaklaşım olarak seçildi.
+
+Ancak modelin doğrusal olmayan ilişkileri yakalayıp yakalayamadığını görmek için ek olarak şu modeller de denendi:
+
+- **Polinomsal Regresyon (degree=2)**
+- **Random Forest Regresyon**
+
+Amaç; farklı modellerin performanslarını karşılaştırarak **hangi modelin Tesla verisini en iyi açıkladığını belirlemek**ti.
 
 
 
